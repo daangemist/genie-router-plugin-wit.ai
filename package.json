@@ -1,0 +1,36 @@
+{
+  "name": "genie-router-wit.ai",
+  "version": "1.0.0",
+  "description": "A genie router plugin to use wit.ai as a brain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matueranet/genie-router-plugin-wit.ai.git"
+  },
+  "keywords": [
+    "genie-router",
+    "plugin",
+    "brain",
+    "wit",
+    "wit.ai"
+  ],
+  "author": "matueranet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matueranet/genie-router-plugin-wit.ai/issues"
+  },
+  "homepage": "https://github.com/matueranet/genie-router-plugin-wit.ai#readme",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "node-wit": "^4.2.0",
+    "uuid": "^3.0.1"
+  },
+  "genieRouterPlugin": {
+    "name": "wit"
+  }
+}
